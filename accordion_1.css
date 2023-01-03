@@ -1,0 +1,41 @@
+html, body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+.panel-notice-container {
+    margin-bottom: -16px;
+}
+
+.panel-notice-title {
+    font-weight: bold;
+    color: gainsboro;
+    cursor: pointer;
+}
+
+.panel-notice-body {
+    height: 0px;
+    overflow: hidden;
+    transition: all 1.2s;
+}
+
+#btn-all-close {
+    margin-bottom: 10px;
+    background-color: #726996;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 25px;
+    float: right;
+}
+
+#btn-all-close:hover {
+    background-color: red;
+    color: #fff;
+    transition: all 0.45s;
+}
+
+.active {
+    display: block;
+    height: 300px;
+}
